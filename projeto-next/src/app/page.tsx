@@ -15,6 +15,9 @@ const Botao = styled.button`
     background-color: darkblue;
   }
 `;
+const Title = styled.h1`
+  color: blue;
+`
 
 const nome = 'Bruno Henrique'
 const canal = 'Bruno Rataque'
@@ -43,6 +46,7 @@ function Youtube() {
 export default function Home() {
   return (
     <div>
+      <Title>Bem-vindo</Title>
       <Youtube />
       <Botao>Apagar a conta aí</Botao>
       <Card />
